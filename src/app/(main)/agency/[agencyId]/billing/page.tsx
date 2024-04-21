@@ -37,7 +37,7 @@ const page = async ({ params }: Props) => {
   })
 
   const prices = await stripe.prices.list({
-    product: process.env.NEXT_PLURA_PRODUCT_ID,
+    product: process.env.NEXT_DION_PRODUCT_ID,
     active: true,
   })
 
@@ -80,7 +80,7 @@ const page = async ({ params }: Props) => {
           amt={
             agencySubscription?.Subscription?.active === true
               ? currentPlanDetails?.price || '$0'
-              : '$0'
+              : 'Rs0'
           }
           buttonCta={
             agencySubscription?.Subscription?.active === true
@@ -88,14 +88,14 @@ const page = async ({ params }: Props) => {
               : 'Get Started'
           }
           highlightDescription="Want to modify your plan? You can do this here. If you have
-          further question contact support@plura-app.com"
+          further question contact support@dion-app.com"
           highlightTitle="Plan Options"
           description={
             agencySubscription?.Subscription?.active === true
               ? currentPlanDetails?.description || 'Lets get started'
               : 'Lets get started! Pick a plan that works best for you.'
           }
-          duration="/ month"
+          duration="/ Week"
           features={
             agencySubscription?.Subscription?.active === true
               ? currentPlanDetails?.features || []
@@ -120,12 +120,12 @@ const page = async ({ params }: Props) => {
               //@ts-ignore
               addOn.default_price?.unit_amount
                 ? //@ts-ignore
-                  `$${addOn.default_price.unit_amount / 100}`
+                  `Rs${addOn.default_price.unit_amount / 100}`
                 : '$0'
             }
             buttonCta="Subscribe"
             description="Dedicated support line & teams channel for support"
-            duration="/ month"
+            duration="/ Week"
             features={[]}
             title={'24/7 priority support'}
             highlightTitle="Get support now!"

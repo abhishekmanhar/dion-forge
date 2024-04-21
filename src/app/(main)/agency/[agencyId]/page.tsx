@@ -58,7 +58,7 @@ const Page = async ({
       stripeAccount: agencyDetails.connectAccountId,
     })
 
-    currency = response.default_currency?.toUpperCase() || 'USD'
+    currency = response.default_currency?.toUpperCase() || 'INR'
     const checkoutSessions = await stripe.checkout.sessions.list(
       {
         created: { gte: startDate, lte: endDate },
