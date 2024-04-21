@@ -1,24 +1,26 @@
-# SaaS Website Builder, Project Management And Dashboard With Stripe using Nextjs14, Bun, Stripe Connect, Prisma, MySQL, Tailwind
+# Website Builder, Project Management And Dashboard With Stripe using Nextjs14, Bun, Stripe Connect, Prisma, MySQL, Tailwind
 
-License: Not for commercial purpose. Please contact me on Instagram @webprodigies to purchase a lincese for the code. 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![Application Logo](https://storage.googleapis.com/msgsndr/0wtSXexlPhMN1945ooxW/media/65b7c3d24660477daf3d6708.png)
+## Getting Started
 
-| 🟢 Full Video | 🔴 Demo |
-|------------|------|
-| [Full Video](https://youtu.be/6omuUOZcWL0) | [Demo](https://webprodigies.com/demo) |
+First, run the development server:
 
-## ✨ Private Web design / development FREELANCE Community 
-Join the Community if you want to learn how to make money this year with websites! 
-FREE access Limited spots only!!!
-[Link - Private Community](https://webprodigies.com/communities)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Get all the help you need
-Share all bugs and solutions in the discord. Would love to collaborate and get to know talented developers like yourself. 
-[Discord](https://discord.gg/GG4wJkxh)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## SaaS Notion Clone with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets
-[Saas Notion Clone](https://www.youtube.com/watch?v=A3l6YYkXzzg)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ### Features in this application.
 - 🤯 Multivendor B2B2B Saas
@@ -44,9 +46,17 @@ Share all bugs and solutions in the discord. Would love to collaborate and get t
 - ☀️ Light & Dark mode
 - 📄 Functioning landing page
 
+## Learn More
 
-## Website with background grids
-[ibelick](https://bg.ibelick.com/)
+To learn more about Next.js, take a look at the following resources:
 
-## Shadcn UI Theme creator
-[Link To Website](https://gradient.page/tools/shadcn-ui-theme-generator)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
